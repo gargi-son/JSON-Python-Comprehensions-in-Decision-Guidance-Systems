@@ -1,4 +1,5 @@
 1. Write Python queries returning True or False for each of the following logical sentences. 
+
 a. The student with ssn = 82 has taken the course “CS 530” (must be in Transcipts) 
 b. A student named “John Smith” has taken the course “CS 530” (must be in Transcipts). 
 c. All students named “John Smith” has taken the course “CS 530” (must be in Transcipts) 
@@ -13,6 +14,7 @@ k. All students currently enrolled in classes taught by professor Brodsky (i.e.,
 l. Some students who are currently enrolled in classes taught by professor Brodsky major in “CS” 
 
 2. Write Python (comprehension) queries to express/compute each of the following sequences. Eliminate duplicates, and sort the answers (by ssn for students, by (dcode, cno) for courses, by class for classes). 
+
 a. All students { ssn: ..., name: ..., major: ..., status: ...} who have taken the course “cs530” (must be in transcripts) 
 b. All students { ssn: ..., name: ..., major: ..., status: ...} named “John” (i.e., name = "John" in student) who have taken the course “CS 530” (must be in transcripts) 
 c. All students { ssn: ..., name: ..., major: ..., status: ...} who satisfied all prerequisites each class they are enrolled in.
