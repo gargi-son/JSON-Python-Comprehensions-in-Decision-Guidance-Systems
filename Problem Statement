@@ -1,2 +1,25 @@
-#Queries to be implemented
+1. Write Python queries returning True or False for each of the following logical sentences. 
+a. The student with ssn = 82 has taken the course “CS 530” (must be in Transcipts) 
+b. A student named “John Smith” has taken the course “CS 530” (must be in Transcipts). 
+c. All students named “John Smith” has taken the course “CS 530” (must be in Transcipts) 
+d. The student with ssn = 82 has satisfied all prerequisites for each class she is enrolled in. 
+e. Every student has satisfied all prerequisites each class she is enrolled in. 
+f. Every student who majors in “CS” has satisfied all prerequisites for each class she is enrolled in. 
+g. A student named “John Smith” is enrolled in a class for which he did satisfied all prerequisites. 
+h. Some courses do not have prerequisites 
+i. All classes offered this semester have prerequisites. 
+j. Some students received only grades “A” or “B” in every course they have taken (must appear in Transcripts) 
+k. All students currently enrolled in classes taught by professor Brodsky (i.e., the name is "Brodsky" in faculty), major in “CS” 
+l. Some students who are currently enrolled in classes taught by professor Brodsky major in “CS” 
 
+2. Write Python (comprehension) queries to express/compute each of the following sequences. Eliminate duplicates, and sort the answers (by ssn for students, by (dcode, cno) for courses, by class for classes). 
+a. All students { ssn: ..., name: ..., major: ..., status: ...} who have taken the course “cs530” (must be in transcripts) 
+b. All students { ssn: ..., name: ..., major: ..., status: ...} named “John” (i.e., name = "John" in student) who have taken the course “CS 530” (must be in transcripts) 
+c. All students { ssn: ..., name: ..., major: ..., status: ...} who satisfied all prerequisites each class they are enrolled in.
+d. All students { ssn: ..., name: ..., major: ..., status: ...} who are enrolled in a class for which they have not satisfied all its prerequisites. 
+e. All students { ssn: ..., name: ..., major: ..., status: ...} named “John” who are enrolled in a class for which they have not satisfied all its prerequisites. 
+f. All courses {dcode: …, cno: ….} that do not have prerequisites 
+g. All courses {dcode: …, cno: ….} that do have some prerequisites 
+h. All classes {class: ..., dcode: ..., cno: ..., instr: ...} offered this semester that have prerequisites. 
+i. All students { ssn: ..., name: ..., major: ..., status: ...} who received only grades “A” or “B” in every course they have taken (must appear in Transcripts) 
+j. All CS students { ssn: ..., name: ..., major: ..., status: ...} who are currently enrolled in a class taught by professor Brodsky (name = “Brodsky” in faculty).
